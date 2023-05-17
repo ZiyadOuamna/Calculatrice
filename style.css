@@ -1,0 +1,66 @@
+table{
+    width:100%;
+    transition: 1s;
+}
+table:hover{
+    transform: scale(0.98);
+}
+
+.card2{
+    padding: 0px;
+    background-color: black;
+    border-radius: 10px;
+}
+.card2:hover{
+    background-image: linear-gradient(rgb(245,8,0),rgb(215, 253, 0),rgb(245, 8, 0));
+}
+    .all{
+    border: 3px solid blue;
+    background-color: rgb(89, 0, 255);
+    padding: 10px;
+}
+td{
+    background-color: blue;
+    height: 50px;
+    width: 33.33%;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 50px;
+    border-collapse: separate;
+    border-spacing: 20px;
+    
+}
+td:hover{
+
+}
+input{
+    color: black;
+    height: 200px;
+    width: 97%;
+    border: 3px solid blue;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+tr:last-child td{
+    background-color: rgb(212, 151, 20);
+   
+}
+button{
+    background: none;
+    border: none;
+    font-size: 25px;
+    margin: auto;
+    color: white;
+    transition: 1s;
+    width: 100%;
+    height:100%;
+}
+button:hover{
+    transform: scale(1.5);
+    color: black;
+    background: none;
+}
